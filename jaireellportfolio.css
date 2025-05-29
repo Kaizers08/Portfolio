@@ -1,7 +1,7 @@
-/* === Import Fonts === */
+/* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 
-/* === Global Reset === */
+/* Global Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* === Root Variables === */
+/* Root Variables */
 :root {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
@@ -21,7 +21,7 @@
   --main-color: #0ef;
 }
 
-/* === Base Styles === */
+/* Base Styles */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -29,10 +29,10 @@ html {
 
 body {
   background-image: url('5072616.jpg');
-  background-size: cover ;  /* Stretch the image to cover the entire screen */
-  background-position: center;  /* Center the image so it fits well */
-  background-repeat: no-repeat;  /* Prevent the image from repeating */
-  height: 100vh;  /* Cover the full height of the screen */
+  background-size: cover ;  
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 100vh; 
   width: 100%;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -45,7 +45,7 @@ section {
   padding: 100rem 9% 2rem;
 }
 
-/* === Header/Navbar === */
+/* Header/Navbar */
 .header {
   position: fixed;
   top: 0;
@@ -101,7 +101,7 @@ li {
   font-family: 'Poppins', sans-serif;
 }
 
-/* === Root Variables === */
+/*Root Variables*/
 :root {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
@@ -109,7 +109,7 @@ li {
   --main-color: #0ef;
 }
 
-/* === Base Styles === */
+/*Base Styles*/
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -127,7 +127,7 @@ section.home {
     min-height: 100vh;
   }
 
-/* === Header/Navbar === */
+/* Header/Navbar*/
 .header {
   position: fixed;
   top: 0;
@@ -175,7 +175,7 @@ li {
   margin-left: 30px
 }
 
-/* === Home Section === */
+/* Home Section  */
 .home {
   display: flex;
   justify-content: center;
@@ -302,11 +302,11 @@ span {
   .glass-container h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    letter-spacing: .2rem; /* adjust as needed */
+    letter-spacing: .2rem; 
   }
   .glass-content p {
     margin-bottom: 2rem; 
-    letter-spacing: .1rem;/* adjust as needed */
+    letter-spacing: .1rem;
   }
   
 
@@ -326,8 +326,8 @@ span {
   justify-content: flex-end;
   align-items: center;
   padding-right: 30rem;
-  overflow: visible; /* Make sure shadows are visible */
-  position: relative; /* Needed for z-index and stacking context */
+  overflow: visible; 
+  position: relative; 
 
   
 }
@@ -347,7 +347,7 @@ span {
   #services {
     background-image: url('workplace.jpg');
     background-size: cover; 
-    margin-top: 200px; /* Stretch the image to cover the entire screen */
+    margin-top: 200px; 
   }
   
   .services-header {
@@ -383,7 +383,7 @@ span {
 
 
     display: flex;
-    justify-content: space-between; /* space between items */
+    justify-content: space-between; 
     align-items: center;
     padding: 1rem 2rem;
     
@@ -401,6 +401,7 @@ span {
     margin: 0 auto;
   }
   
+<<<<<<< HEAD
 
 
   @media screen and (max-width:1800px){
@@ -498,3 +499,134 @@ span {
     
   }
   
+=======
+  .skills-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 18rem;
+    
+    text-align: center;
+    margin-top: -500px;
+    border-radius: 20%;
+    font-size: 2.5rem;
+    justify-content: center;  
+    margin-right: 100px;
+    margin-left: -5px;
+    font-size: 4rem;
+  }
+  
+  .skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 18rem;
+    padding-top: 4rem;
+    text-align: center;
+   
+    margin-top: 30px;
+    font-size: 2.2rem;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+    
+  }
+
+  @media screen and (max-width:1800px){
+    .home-img img {
+      width: 300px;
+      height: auto;
+    
+      box-shadow: 0 0 1rem rgb(0, 255, 221); 
+      border-radius: 50%;
+      object-fit: cover;
+      transform: translateX(200px); 
+    }
+
+
+    .home-content {
+      font-weight: 700px;
+      margin-left: 80px;
+    }
+    
+    .home-content h1{
+        font-size: 5.6rem;
+        color: var(--text-color);
+        line-height: 1.3;
+        margin-left: 200px;
+        justify-content: auto;
+        white-space: nowrap; 
+        overflow: hidden;
+       
+    }
+    
+    .home-content p{
+        font-size: 1.6rem;
+        margin-left: 200px;
+        letter-spacing: 0.2rem;
+        text-align: auto;
+        
+    }
+    
+    li {
+      display: inline-block;
+      margin-right: -2.5rem;
+      white-space: nowrap; 
+    }
+
+    
+    .abt-img img {
+      width: 430px;  
+      height: 520px;
+      background:  var(--bg-color);
+      box-shadow: 0 0 1rem var(--main-color);
+      border-radius: 20%;
+      object-fit: cover;
+      border: .2rem solid #4a5c64;
+      margin-left: 70px;
+      transform: translateY(-150px);
+      margin-top: px;
+    }
+  
+    
+    .glass-container {
+      width: 500px;
+      padding: 80px 160px; 
+      border-radius: 50px;
+      background-color: rgba(122, 122, 122, 0.13);
+    
+      backdrop-filter: blur(100px);
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.205);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      transform: translateY(-150px);
+      font-family: "Sansation", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.7rem;
+      margin: 0 auto; 
+    }
+    
+    
+    .glass-container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      letter-spacing: .2rem; 
+      transform: translateX(-100px);
+    }
+    .glass-content p {
+      width: 400px; 
+      margin-bottom: 2rem; 
+      letter-spacing: .1rem;
+      font-size: 1.2rem;
+      letter-spacing: 0.1rem;
+      transform: translateX(-100px);
+    }
+    
+  }
+  
+>>>>>>> ce040f8 (new)
