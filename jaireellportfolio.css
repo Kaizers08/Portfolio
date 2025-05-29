@@ -401,6 +401,105 @@ span {
     margin: 0 auto;
   }
   
+<<<<<<< HEAD
+
+
+  @media screen and (max-width:1800px){
+    .home-img img {
+      width: 300px;
+      height: auto;
+    
+      box-shadow: 0 0 1rem rgb(0, 255, 221); /* Added !important */
+      border-radius: 50%;
+      object-fit: cover;
+      transform: translateX(200px); 
+    }
+
+
+    .home-content {
+      font-weight: 700px;
+      margin-left: 80px;
+    }
+    
+    .home-content h1{
+        font-size: 5.6rem;
+        color: var(--text-color);
+        line-height: 1.3;
+        margin-left: 200px;
+        justify-content: auto;
+        white-space: nowrap; 
+        overflow: hidden;
+       
+    }
+    
+    .home-content p{
+        font-size: 1.6rem;
+        margin-left: 200px;
+        letter-spacing: 0.2rem;
+        text-align: auto;
+        
+    }
+    
+    li {
+      display: inline-block;
+      margin-right: -2.5rem;
+      white-space: nowrap; 
+    }
+
+    
+    .abt-img img {
+      width: 430px;  
+      height: 520px;
+      background:  var(--bg-color);
+      box-shadow: 0 0 1rem var(--main-color);
+      border-radius: 20%;
+      object-fit: cover;
+      border: .2rem solid #4a5c64;
+      margin-left: 70px;
+      transform: translateY(-150px);
+      margin-top: px;
+    }
+  
+    
+    .glass-container {
+      width: 500px;
+      padding: 80px 160px; /* Mas reasonable padding */
+      border-radius: 50px;
+      background-color: rgba(122, 122, 122, 0.13);
+    
+      backdrop-filter: blur(100px);
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.205);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      transform: translateY(-150px);
+      font-family: "Sansation", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.7rem;/* Adjust as needed */
+      margin: 0 auto; /* Center horizontally */
+    }
+    
+    
+    .glass-container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      letter-spacing: .2rem; /* adjust as needed */
+      transform: translateX(-100px);
+    }
+    .glass-content p {
+      width: 400px; /* Adjust width as needed */
+      margin-bottom: 2rem; 
+      letter-spacing: .1rem;/* adjust as needed */
+      font-size: 1.2rem;
+      letter-spacing: 0.1rem;
+      transform: translateX(-100px);
+    }
+    
+  }
+  
+
   .skills-header {
     display: flex;
     justify-content: center;
